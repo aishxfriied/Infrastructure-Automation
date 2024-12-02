@@ -1,3 +1,37 @@
 2024-12-02 12:22:06,591 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
 2024-12-02 12:22:06,900 - INFO - Bucket my-infra-automation-bucket created successfully in us-east-1!
 2024-12-02 12:22:07,125 - INFO - File example.txt uploaded to bucket my-infra-automation-bucket as example.txt.
+2024-12-02 12:30:27,304 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 12:30:28,009 - INFO - CloudFormation stack MyS3BucketStack creation initiated: {'StackId': 'arn:aws:cloudformation:us-east-1:060795925602:stack/MyS3BucketStack/1f2485d0-b0d3-11ef-bc8d-0afffb57140d', 'ResponseMetadata': {'RequestId': '6c5b13ec-9c09-4ce2-ad97-5b90f8e53213', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '6c5b13ec-9c09-4ce2-ad97-5b90f8e53213', 'date': 'Mon, 02 Dec 2024 17:30:28 GMT', 'content-type': 'text/xml', 'content-length': '385', 'connection': 'keep-alive'}, 'RetryAttempts': 0}}
+2024-12-02 12:30:28,344 - INFO - File example.txt uploaded to bucket my-infra-automation-bucket as example.txt.
+2024-12-02 12:49:03,342 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 12:49:03,549 - ERROR - Error deploying CloudFormation template: An error occurred (AlreadyExistsException) when calling the CreateStack operation: Stack [MyS3BucketStack] already exists
+2024-12-02 12:49:04,017 - INFO - File example.txt uploaded to bucket my-infra-automation-bucket as example.txt.
+2024-12-02 12:49:47,859 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 12:49:48,045 - ERROR - Error deploying CloudFormation template: An error occurred (AlreadyExistsException) when calling the CreateStack operation: Stack [MyS3BucketStack] already exists
+2024-12-02 12:49:48,461 - INFO - File example.txt uploaded to bucket my-infra-automation-bucket as example.txt.
+2024-12-02 12:50:46,792 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 12:50:47,158 - ERROR - Error deploying CloudFormation template: An error occurred (AlreadyExistsException) when calling the CreateStack operation: Stack [MyS3BucketStack] already exists
+2024-12-02 12:55:51,487 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 12:55:51,886 - ERROR - Error deploying CloudFormation template: An error occurred (AlreadyExistsException) when calling the CreateStack operation: Stack [MyS3BucketStack] already exists
+2024-12-02 12:59:54,865 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 12:59:55,259 - INFO - No changes to update for stack MyS3BucketStack.
+2024-12-02 12:59:55,545 - INFO - File example.txt uploaded to bucket my-infra-automation-bucket as example.txt.
+2024-12-02 13:01:53,049 - INFO - Starting deployment script...
+2024-12-02 13:01:53,049 - INFO - Validating CloudFormation template: templates/s3_bucket_template.yaml
+2024-12-02 13:01:53,059 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 13:01:53,651 - INFO - Template templates/s3_bucket_template.yaml validated successfully: {'Parameters': [], 'Description': 'CloudFormation template to create an S3 bucket', 'ResponseMetadata': {'RequestId': 'a1bf6db8-d623-4865-932a-326308e2126f', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'a1bf6db8-d623-4865-932a-326308e2126f', 'date': 'Mon, 02 Dec 2024 18:01:53 GMT', 'content-type': 'text/xml', 'content-length': '373', 'connection': 'keep-alive'}, 'RetryAttempts': 0}}
+2024-12-02 13:01:53,653 - INFO - Deploying CloudFormation stack: MyS3BucketStack
+2024-12-02 13:01:54,016 - INFO - No changes to update for stack MyS3BucketStack.
+2024-12-02 13:01:54,018 - INFO - Uploading file example.txt to bucket my-infra-automation-bucket
+2024-12-02 13:01:54,255 - INFO - File example.txt uploaded to bucket my-infra-automation-bucket as example.txt.
+2024-12-02 13:01:54,257 - INFO - Deployment script completed successfully.
+2024-12-02 13:02:32,555 - INFO - Starting deployment script...
+2024-12-02 13:02:32,555 - INFO - Validating CloudFormation template: templates/s3_bucket_template.yaml
+2024-12-02 13:02:32,563 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 13:02:33,082 - INFO - Template templates/s3_bucket_template.yaml validated successfully: {'Parameters': [], 'Description': 'CloudFormation template to create an S3 bucket', 'ResponseMetadata': {'RequestId': 'aceaeb1e-b223-4e61-9ed5-2cb181d580c7', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'aceaeb1e-b223-4e61-9ed5-2cb181d580c7', 'date': 'Mon, 02 Dec 2024 18:02:33 GMT', 'content-type': 'text/xml', 'content-length': '373', 'connection': 'keep-alive'}, 'RetryAttempts': 0}}
+2024-12-02 13:02:33,084 - INFO - Deploying CloudFormation stack: MyS3BucketStack
+2024-12-02 13:02:33,633 - INFO - No changes to update for stack MyS3BucketStack.
+2024-12-02 13:02:33,635 - INFO - Uploading file example.txt to bucket my-infra-automation-bucket
+2024-12-02 13:02:34,035 - INFO - File example.txt uploaded to bucket my-infra-automation-bucket as example.txt.
+2024-12-02 13:02:34,038 - INFO - Deployment script completed successfully.

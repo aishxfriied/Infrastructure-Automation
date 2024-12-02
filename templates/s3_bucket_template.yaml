@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudFormation template to create an S3 bucket with parameters.
+
+Parameters:
+  BucketName:
+    Type: String
+    Description: Name of the S3 bucket to create.
+  EnvironmentTag:
+    Type: String
+    Description: Environment tag for the bucket.
+
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref BucketName
+      Tags:
+        - Key: Environment
+          Value: !Ref EnvironmentTag
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0abcdef1234567890
