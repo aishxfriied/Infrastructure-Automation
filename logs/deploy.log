@@ -35,3 +35,12 @@
 2024-12-02 13:02:33,635 - INFO - Uploading file example.txt to bucket my-infra-automation-bucket
 2024-12-02 13:02:34,035 - INFO - File example.txt uploaded to bucket my-infra-automation-bucket as example.txt.
 2024-12-02 13:02:34,038 - INFO - Deployment script completed successfully.
+2024-12-02 14:00:59,159 - INFO - Deleting S3 bucket: my-infra-automation-bucket
+2024-12-02 14:00:59,169 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-12-02 14:01:03,706 - ERROR - Error deleting bucket my-infra-automation-bucket: An error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist
+2024-12-02 14:01:03,707 - ERROR - Cleanup script encountered an error: An error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist
+2024-12-02 14:01:03,709 - INFO - Starting deployment script...
+2024-12-02 14:01:03,709 - INFO - Validating CloudFormation template: templates/s3_bucket_template.yaml
+2024-12-02 14:01:04,447 - INFO - Template templates/s3_bucket_template.yaml validated successfully: {'Parameters': [{'ParameterKey': 'BucketName', 'NoEcho': False, 'Description': 'Name of the S3 bucket to create.'}, {'ParameterKey': 'EnvironmentTag', 'NoEcho': False, 'Description': 'Environment tag for the bucket.'}], 'Description': 'CloudFormation template to create an S3 bucket with parameters.', 'ResponseMetadata': {'RequestId': '4863584a-da12-4380-8529-4f24ddb7dbc8', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '4863584a-da12-4380-8529-4f24ddb7dbc8', 'date': 'Mon, 02 Dec 2024 19:01:04 GMT', 'content-type': 'text/xml', 'content-length': '766', 'connection': 'keep-alive'}, 'RetryAttempts': 0}}
+2024-12-02 14:01:04,450 - INFO - Deploying CloudFormation stack: MyS3BucketStack
+2024-12-02 14:01:04,451 - ERROR - Deployment script encountered an error: name 'deploy_cloudformation_template' is not defined
