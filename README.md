@@ -47,7 +47,7 @@ Test file (example.txt) for S3 upload
 ## Installation
 
 ```bash
-git clone <your-repo-url>
+git clone (https://github.com/aishxfriied/Infrastructure-Automation)
 cd InfrastructureAutomation
 ```
 
